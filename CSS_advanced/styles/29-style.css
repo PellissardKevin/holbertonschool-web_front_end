@@ -98,7 +98,7 @@ select {
 [type=button],
 [type=reset],
 [type=submit],
-button {
+button::-webkit-search-decoration {
 	-webkit-appearance: button
 }
 
@@ -149,7 +149,7 @@ textarea {
 	height: auto
 }
 
-[type=search] {
+[type=search]::-webkit-search-decoration {
 	-webkit-appearance: textfield;
 	outline-offset: -2px
 }
